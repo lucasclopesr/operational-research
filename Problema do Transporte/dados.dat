@@ -1,0 +1,54 @@
+# dados para a modelagem abstrata do Problema do Transporte
+
+set N := 01 02 03 04;
+set M := D1 D2 D3 D4 D5 D6 D7;
+
+param CT := 0.2;
+
+param D :=
+  01 D1 26
+  01 D2 12
+  01 D3 10
+  01 D4 18
+  01 D5 11
+  01 D6 8
+  01 D7 20
+  02 D1 28
+  02 D2 14
+  02 D3 12
+  02 D4 20
+  02 D5 13
+  02 D6 10
+  02 D7 22
+  03 D1 20
+  03 D2 26
+  03 D3 20
+  03 D4 2
+  03 D5 6
+  03 D6 22
+  03 D7 18
+  04 D1 26
+  04 D2 10
+  04 D3 4
+  04 D4 16
+  04 D5 24
+  04 D6 14
+  04 D7 21
+;
+
+param DEM :=
+  D1 247
+  D2 394
+  D3 265
+  D4 105
+  D5 90
+  D6 85
+  D7 145
+;
+
+param OFER :=
+  01 660
+  02 301
+  03 271
+  04 99
+;
